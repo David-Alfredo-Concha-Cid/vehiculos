@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <h1>Catálogo de Vehiculos</h1>
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Marca</th>
+        <th>Modelo</th>
+        <th>Serial Carroceria</th>
+        <th>Serial Motor</th>
+        <th>Categoria</th>
+        <th>Precio</th>
+        <th>Condicion de Precio</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for v in cars %}
+      <tr>
+        <td>{{ v.get_marca_display }}</td>
+        <td>{{ v.modelo }}</td>
+        <td>{{ v.serial_carroceria }}</td>
+        <td>{{ v.serial_motor }}</td>
+        <td>{{ v.categoria }}</td>
+        <td>{{ v.precio }}</td>
+        <td>{{ v.condicion_precio }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+{% endblock %}
