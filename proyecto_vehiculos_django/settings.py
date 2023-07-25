@@ -57,7 +57,8 @@ ROOT_URLCONF = 'proyecto_vehiculos_django.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ["./Proyecto_vehiculos_django/templates"],
+        #'DIRS': ["./Proyecto_vehiculos_django/templates"],
+        'DIRS': [os.path.join(BASE_DIR, 'templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
