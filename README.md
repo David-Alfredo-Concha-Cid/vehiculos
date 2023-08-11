@@ -18,19 +18,19 @@ Este proyecto final del bootcamp "Desarrollo de Aplicaciones Full Stack Python T
 ## Para empezar a desarrollar el proyecto, realice lo siguiente: 
 
 
-
 - Ejecutar en el simbolo del sistema el comando python manage.py runserver
 - Entrar el sitio web y visitar el sitio
 - Debe ingresar con usuario y contraseña para ver la información en el admin
 
 ## Visulización en Vercel.
 
-- Tambien puede visualizar la información a traves del siguiente link en vercel para poder revisar el proyecto en linea
-- Link de vercel:  https://vehiculos.vercel.app/
-- Ingrese con los siguiente usuario:
-- usuario: batsu
-- contraseña: 123456
+- También tienes la opción de visualizar la información en línea a través del siguiente enlace en Vercel, lo que te permitirá explorar el proyecto en acción y explorar sus características de manera práctica.:
 
+- Enlace de Vercel: https://vehiculos.vercel.app/
+- Además, puedes acceder con las credenciales de administrador proporcionadas a continuación:
+
+- Usuario: batsu
+- Contraseña: 123456
 
 
 ## Descripción
